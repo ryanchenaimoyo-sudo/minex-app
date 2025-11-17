@@ -1,0 +1,19 @@
+{
+  "name": "minex-expo-shell",
+  "version": "1.0.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "build": "eas build --platform android"
+  },
+  "dependencies": {
+    "expo": "~48.0.0",
+    "react": "18.2.0",
+    "react-native": "0.71.8",
+    "react-native-webview": "12.4.0"
+  },
+  "devDependencies": {
+    "eas-cli": "^3.0.0"
+  }
+}

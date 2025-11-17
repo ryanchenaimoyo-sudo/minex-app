@@ -1,0 +1,15 @@
+{
+  "name": "minex-web",
+  "private": true,
+  "scripts": {
+    "dev": "expo start --web",
+    "build": "expo build:web",
+    "start": "expo start"
+  },
+  "dependencies": {
+    "expo": "^48.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native-web": "0.18.10"
+  }
+}
